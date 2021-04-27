@@ -3,6 +3,9 @@ var words = new Array();
 
 i = 2;
 q = 0;
+if(process.argv[i] == null){
+    process.stdout.write("No Values were entered. Run Program Again");
+}
 while(process.argv[i] != null){
     numbers[i-2] = process.argv[i];
     i = i + 1;
